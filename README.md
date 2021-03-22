@@ -2,7 +2,7 @@
 
 Docker for hosting Virtuoso.
 
-The Virtuoso is built from a specific commit SHA in <https://github.com/openlink/virtuoso-opensource> (branch `develop/7`).
+The Virtuoso is built from the latest commit SHA in https://github.com/fair-data/virtuoso-opensource (branch `develop/7`).
 
 ## Running your Virtuoso
 

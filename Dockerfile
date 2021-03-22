@@ -8,7 +8,7 @@ RUN apt-get update \
         && apt-get install -y build-essential autotools-dev autoconf automake unzip wget net-tools libtool flex bison gperf gawk m4 libssl-dev libreadline-dev openssl crudini \
         # Workaround for #663
         && apt-get install -y libssl1.0-dev \
-        && wget https://github.com/openlink/virtuoso-opensource/archive/${VIRTUOSO_COMMIT}.zip \
+        && wget https://github.com/fair-data/virtuoso-opensource/archive/${VIRTUOSO_COMMIT}.zip \
         && unzip ${VIRTUOSO_COMMIT}.zip \
         && rm ${VIRTUOSO_COMMIT}.zip \
         && cd virtuoso-opensource-${VIRTUOSO_COMMIT} \
